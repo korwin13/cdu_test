@@ -1,0 +1,21 @@
+{
+    "name": "cdu/test",
+    "description": "Test task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "agorohov"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1"
+    }
+}
